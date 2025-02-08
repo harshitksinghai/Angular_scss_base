@@ -3,9 +3,10 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [],
+  template: `
+    <h1>Hi There!</h1>
+  `
 })
 export class AppComponent {
   title = 'Angular_Learn_1';
